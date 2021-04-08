@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sliding-window-statistics" />
+        <module name="eventbus" />
+        <module name="throttler" />
+        <module name="probability-problem" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eventbus" target="1.8" />
+      <module name="probability-problem" target="1.7" />
+      <module name="sliding-window-statistics" target="1.8" />
+      <module name="throttler" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
